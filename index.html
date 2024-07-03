@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Management website</title>
+    <!-- Custom css-->
+    <link rel="stylesheet" href="style.css" />
+    <!-- font awesome-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BootStrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Sec-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black w-100 sticky">
+      <a class="navbar-brand" href="#">Logo</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Book An Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Testimonials</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-auto">
+          <button class="btn btn-outline-success" type="submit">Login</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Navbar ends here -->
+
+    <!-- Homepage -->
+    <div class="container-fluid mt-4 home ">
+      <div class="row">
+        <div class="col text-center mt-15">
+          <h1>Welcome to our Event Management website</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus ab
+            voluptatibus, dicta non corporis praesentium?
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid mt-2 event">
+        <div class="row">
+            <div class="col text-center heading">
+                <h1 class="border-bottom">Upcoming Events Stay tuned</h1> 
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./assets/p4.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Tech Innovators Conference 2024</h5>
+                    <p class="card-text">Join leading minds in technology for a three-day conference featuring keynote speeches, panel discussions, and networking opportunities.</p>
+                    <div class="event-info">
+                        <div class="event-detail">
+                            <i class="fa-solid fa-location-pin"></i>
+                            <p>Karachi, Sindh, Pakistan</p>
+                        </div>
+                        <div class="event-detail">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <p>15th July 2024, at 9:30 PM</p>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="btn btn-primary mt-3">Explore more </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./assets/p3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Summer Music Fest</h5>
+                    <p class="card-text">enjoy a weekend of live performances from top artists across genres at the annual Summer Music Fest food trucks, and fun activities for all ages.
+                    </p>
+                    <div class="event-info">
+                        <div class="event-detail">
+                            <i class="fa-solid fa-location-pin"></i>
+                            <p>Karachi, Sindh, Pakistan</p>
+                        </div>
+                        <div class="event-detail">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <p>15th July 2024, at 9:30 PM</p>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="btn btn-primary mt-3">Explore more </a>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./assets/p4.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Art & Culture Expo</h5>
+                    <p class="card-text">Discover local talent and global masterpieces at the Art & Culture Expo. This event features art exhibitions, live demonstrations, and workshops</p>
+                    <div class="event-info">
+                        <div class="event-detail">
+                            <i class="fa-solid fa-location-pin"></i>
+                            <p>Karachi, Sindh, Pakistan</p>
+                        </div>
+                        <div class="event-detail">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <p>15th July 2024, at 9:30 PM</p>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="btn btn-primary mt-3">Explore more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card" >
+                  <img src="./assets/p1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Startup Pitch Night</h5>
+                   
+                    <p class="card-text">Aspiring entrepreneurs present their innovative ideas to a panel of investors and industry experts at Startup Pitch Night. do not miss out such events .</p>
+                    <div class="event-info">
+                        <div class="event-detail">
+                            <i class="fa-solid fa-location-pin"></i>
+                            <p>Karachi, Sindh, Pakistan</p>
+                        </div>
+                        <div class="event-detail">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <p>15th July 2024, at 9:30 PM</p>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="btn btn-primary mt-3">Explore more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./assets/p5.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Fitness & Wellness Fair</h5>
+                    <p class="card-text">Participate in fitness classes, wellness workshops, and health screenings at the Fitness & Wellness Fair. Learn about the latest trends in nutrition, mental health, and physical fitness.</p>
+                    <div class="event-info">
+                        <div class="event-detail">
+                            <i class="fa-solid fa-location-pin"></i>
+                            <p>Karachi, Sindh, Pakistan</p>
+                        </div>
+                        <div class="event-detail">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <p>15th July 2024, at 9:30 PM</p>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="btn btn-primary mt-3">Explore more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./assets/p6.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Gourmet Food Festival</h5>
+                    <p class="card-text">Savor exquisite dishes from renowned chefs at the Gourmet Food Festival. Enjoy cooking demonstrations, tasting sessions, and culinary competitions in a celebration of fine dining and gourmet cuisine.</p>
+                    <div class="event-info">
+                        <div class="event-detail">
+                            <i class="fa-solid fa-location-pin"></i>
+                            <p>Karachi, Sindh, Pakistan</p>
+                        </div>
+                        <div class="event-detail">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <p>15th July 2024, at 9:30 PM</p>
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="btn btn-primary mt-3">Explore more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+            
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: black !important;
+}
+.navbar-brand {
+    padding: 10px;
+  }
+  
+.navbar .collapse .navbar-nav .nav-item a{
+    padding: 13px;
+    font-size: 18px;
+    color: white;
+}
+.navbar .collapse .navbar-nav .nav-item a:hover{
+    color: blueviolet;
+}
+.navbar .collapse .btn{
+    margin-right:40px !important;
+}
+.home {
+    width: 100%;
+    height: 600px;
+    background-image: url("./assets/p1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home h1, p{
+    color: white;
+    margin-top: 100px;
+}
+.event{
+    margin-top: 10px;
+}
+.event h1{
+    width: 100%;
+    height: 70px;
+    color: white;
+    margin-top: 10px;
+    border-bottom: 5px solid white;
+}
+.carousel{
+    background-color: skyblue;
+
+}
+.border-bottom {
+    border-bottom: 2px solid #000; /* Adjust the border width and color as needed */
+    display: inline-block; /* Ensure the border fits the content width */
+    padding-bottom: 5px; /* Optional: Add some padding for better spacing */
+}
+.card img{
+    height: 250px;
+    width: 100%;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.card .card-body h5{
+    color: black;
+    font-size: 18px;
+}
+.card .card-body p{
+    color: black;
+    font-size: 15px;
+
+}
+.event-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.event-detail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.event-detail i {
+    font-size: 20px; }
+
+.event-detail p {
+    margin: 0; 
+}
