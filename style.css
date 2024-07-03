@@ -4,7 +4,9 @@
     font-family: sans-serif;
 }
 body{
-    background-color: black !important;
+    
+     background-color: black !important;
+    
 }
 .navbar-brand {
     padding: 10px;
@@ -37,20 +39,19 @@ body{
     margin-top: 10px;
 }
 .event h1{
-    width: 100%;
-    height: 70px;
+    
     color: white;
     margin-top: 10px;
-    border-bottom: 5px solid white;
+    
 }
 .carousel{
     background-color: skyblue;
 
 }
 .border-bottom {
-    border-bottom: 2px solid #000; /* Adjust the border width and color as needed */
-    display: inline-block; /* Ensure the border fits the content width */
-    padding-bottom: 5px; /* Optional: Add some padding for better spacing */
+    
+    display: inline-block; 
+    padding-bottom: 5px; 
 }
 .card img{
     height: 250px;
@@ -58,30 +59,167 @@ body{
     border-radius: 5px;
     justify-content: space-between;
 }
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 .card .card-body h5{
     color: black;
     font-size: 18px;
+    text-align: center;
 }
 .card .card-body p{
     color: black;
     font-size: 15px;
+    text-align: center;
 
 }
+.card .card-body .btn-primary{
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 .event-info {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px; 
+    text-align: center;
+
+
 }
 
 .event-detail {
     display: flex;
     align-items: center;
     gap: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem; /* Adjust the gap between the icon and the paragraph */
+  text-align: center;
+   
 }
 
 .event-detail i {
-    font-size: 20px; }
+    font-size: 20px;
+    
+}
 
 .event-detail p {
     margin: 0; 
 }
+.heading h1{
+    color: white;
+    text-align: center;
+}
+ .btn-primary {
+    align-self: center;
+  }
+  .services{
+    display: flex;
+  justify-content: center;
+  align-items: center
+  }
+.services .card i{
+font-size: 25px;
+margin-top: 4px;
+text-align: center;
+}
+.services .card .card-body h5 ,p{
+    text-align: center;
+
+}
+.services .card .card-body{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/*book eventForm*/
+.form-container {
+    
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);    
+    width: 100% !important;
+    height: 540px !important;
+
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.book_btn {
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+/*  Testimonial */
+.testimonial .card {
+    display: flex;
+    font-size: 25px;
+    margin-top: 4px;
+    text-align: center;
+    height: 350px;
+    width: 300px;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    
+    margin: 30px;
+}
+.testimonial .card img {
+    height: 80px;
+    width: 100px;
+    border-radius: 50%;
+    padding-top: 2px;
+    margin-top: 5px;
+    margin: 0 auto; 
+   
+
+}
+.testimonial .card h5 ,p{
+    padding-top: 20px;
+}
+.gallery img{
+    height: 250px !important;
+    width: 300px !important;
+    padding: 5px;
+    border-radius: 10px;
+}
+    
+  

@@ -8,7 +8,13 @@
     <link rel="stylesheet" href="style.css" />
     <!-- font awesome-->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- BootStrap-->
     <link
@@ -64,7 +70,7 @@
     <!-- Navbar ends here -->
 
     <!-- Homepage -->
-    <div class="container-fluid mt-4 home ">
+    <div class="container-fluid mt-4 home">
       <div class="row">
         <div class="col text-center mt-15">
           <h1>Welcome to our Event Management website</h1>
@@ -76,167 +82,462 @@
       </div>
     </div>
     <div class="container-fluid mt-2 event">
-        <div class="row">
-            <div class="col text-center heading">
-                <h1 class="border-bottom">Upcoming Events Stay tuned</h1> 
-            </div>
+      <div class="row">
+        <div class="col text-center heading">
+          <h1 class="border-bottom">Up Comming events stay tuned</h1>
         </div>
+      </div>
+    </div>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./assets/p4.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Tech Innovators Conference 2024</h5>
+                  <p class="card-text">
+                    Join leading minds in technology for a three-day conference
+                    featuring keynote speeches, panel discussions, and
+                    networking opportunities.
+                  </p>
+                  <div class="event-info">
+                    <div class="event-detail">
+                      <i class="fa-solid fa-location-pin"></i>
+                      <p>Karachi, Sindh, Pakistan</p>
+                    </div>
+                    <div class="event-detail">
+                      <i class="fa-solid fa-calendar-days"></i>
+                      <p>15th July 2024, at 9:30 PM</p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-primary mt-3">Explore more </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./assets/p3.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Summer Music Fest</h5>
+                  <p class="card-text">
+                    Enjoy a weekend of live performances from top artists across
+                    genres at the annual Summer Music Fest food trucks, and fun
+                    activities for all ages.
+                  </p>
+                  <div class="event-info">
+                    <div class="event-detail">
+                      <i class="fa-solid fa-location-pin"></i>
+                      <p>Karachi, Sindh, Pakistan</p>
+                    </div>
+                    <div class="event-detail">
+                      <i class="fa-solid fa-calendar-days"></i>
+                      <p>15th July 2024, at 9:30 PM</p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-primary mt-3">Explore more </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./assets/p4.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Art & Culture Expo</h5>
+                  <p class="card-text">
+                    Discover local talent and global masterpieces at the Art &
+                    Culture Expo. This event features art exhibitions, live
+                    demonstrations, and workshops
+                  </p>
+                  <div class="event-info">
+                    <div class="event-detail">
+                      <i class="fa-solid fa-location-pin"></i>
+                      <p>Karachi, Sindh, Pakistan</p>
+                    </div>
+                    <div class="event-detail">
+                      <i class="fa-solid fa-calendar-days"></i>
+                      <p>15th July 2024, at 9:30 PM</p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-primary mt-3">Explore more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./assets/p1.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Startup Pitch Night</h5>
+                  <p class="card-text">
+                    Aspiring entrepreneurs present their innovative ideas to a
+                    panel of investors and industry experts at Startup Pitch
+                    Night. Do not miss out on such events.
+                  </p>
+                  <div class="event-info">
+                    <div class="event-detail">
+                      <i class="fa-solid fa-location-pin"></i>
+                      <p>Karachi, Sindh, Pakistan</p>
+                    </div>
+                    <div class="event-detail">
+                      <i class="fa-solid fa-calendar-days"></i>
+                      <p>15th July 2024, at 9:30 PM</p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-primary mt-3">Explore more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./assets/p5.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Fitness & Wellness Fair</h5>
+                  <p class="card-text">
+                    Participate in fitness classes, wellness workshops, and
+                    health screenings at the Fitness & Wellness Fair. Learn
+                    about the latest trends in nutrition, mental health, and
+                    physical fitness.
+                  </p>
+                  <div class="event-info">
+                    <div class="event-detail">
+                      <i class="fa-solid fa-location-pin"></i>
+                      <p>Karachi, Sindh, Pakistan</p>
+                    </div>
+                    <div class="event-detail">
+                      <i class="fa-solid fa-calendar-days"></i>
+                      <p>15th July 2024, at 9:30 PM</p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-primary mt-3">Explore more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./assets/p6.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title ">Gourmet Food Festival</h5>
+                  <p class="card-text">
+                    Savor exquisite dishes from renowned chefs at the Gourmet
+                    Food Festival. Enjoy cooking demonstrations, tasting
+                    sessions, and culinary competitions in a celebration of fine
+                    dining and gourmet cuisine.
+                  </p>
+                  <div class="event-info">
+                    <div class="event-detail">
+                      <i class="fa-solid fa-location-pin"></i>
+                      <p>Karachi, Sindh, Pakistan</p>
+                    </div>
+                    <div class="event-detail">
+                      <i class="fa-solid fa-calendar-days"></i>
+                      <p>15th July 2024, at 9:30 PM</p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-primary mt-3">Explore more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Home page ends here -->
+
+    <!--Services  page  -->
+    <div class="container-fluid mt-5">
+      <div class="row mt-5">
+        <div class="col text-center heading">
+          <h1 class="border-bottom">Our Services</h1>
+          <p>
+            involve the planning, organizing, and execution of various types of
+            events, such as corporate meetings, conferences, weddings, parties,
+            and festivals
+          </p>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-around mt-2">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-2 services">
+          <div class="card" style="width: 18rem">
+            <i class="fa-solid fa-bars"></i>
+            <div class="card-body">
+              <h5 class="card-title">Menu Selection</h5>
+              <p class="card-text">
+                Our culinary experts work with you to design a menu that suits
+                your event's theme and dietary requirements, providing
+                exceptional food and beverage service that delights your guests.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 services mt-2">
+          <div class="card" style="width: 18rem">
+            <i class="fa-solid fa-venus"></i>
+            <div class="card-body">
+              <h5 class="card-title">Venue Selection</h5>
+              <p>
+                We assist you in finding the perfect venue for your event and
+                manage all logistics, including setup, decor, and technical
+                requirements, to create the ideal setting for your occasion.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12 services mt-2">
+          <div class="card" style="width: 18rem">
+            <i class="fa-regular fa-calendar-days"></i>
+            <div class="card-body">
+              <h5 class="card-title">Event Planning and Coordination</h5>
+              <p class="card-text">
+                Our expert team will handle every detail of your event, from
+                initial concept to final execution, ensuring a seamless and
+                memorable experience for all attendees.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--SERVICES ENDS HERE -->
+
+    <!--BOOK A FORM  -->
+
+    <div class="container fluid mt-4">
+      <div class="row">
+        <div class="col text-center heading">
+          <h1 class="border-bottom ">BOOK NOW</h1>
+          <p>Book your event now and have a great experience with us </p>
+        </div>
+      </div>
+      <div class="row">
+        
+<div class="form-container">
+        <form >
+          
+          <div class="form-group">
+              <label for="full-name">Full Name</label>
+              <input type="text" id="full-name" name="full-name" required>
+          </div>
+          <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-group">
+              <label for="time">Time</label>
+              <input type="time" id="time" name="time" required>
+          </div>
+          <div class="form-group">
+              <label for="date">Date</label>
+              <input type="date" id="date" name="date" required>
+          </div>
+          <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="book_btn">Book</button>
+      </form>
+    </div>
+   </div>
+    </div>
+    <!-- Form ends here-->
+
+        <!-- Gallery Starts here  starts here -->
+
+       <div class="container-fluid mt-4 gallery">
+        <div class="row ">
+          <div class="col text-center heading">
+          <h1 class="border-bottom">
+            Gallery
+          </h1>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <img src="/assets/e1.jpeg" alt="Event-img"> 
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <img src="/assets/e2.jpeg" alt="Event-img"> 
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <img src="/assets/e3.jpeg" alt="Event-img"> 
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <img src="/assets/e4.jpeg" alt="Event-img"> 
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <img src="/assets/e3.jpeg" alt="Event-img"> 
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <img src="/assets/e4.jpeg" alt="Event-img"> 
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <img src="/assets/e1.jpeg" alt="Event-img"> 
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <img src="/assets/e2.jpeg" alt="Event-img"> 
+          </div>
+
+
+        </div>
+
+
+
+
+       </div>
+
+
+
+    <!-- Gallery ends here -->
+
+<!-- Testimonial starts here -->
+<div class="container-fluid mt-4 testimonial ">
+  <div class="row">
+    <div class="col text-center heading">
+      <h1 class=" border-bottom ">Testimonials</h1>
+      <p>What our Clients say about our event management  system , hope you like it , check it out here</p>
+    </div>
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <!-- First carousel item -->
+      <div class="carousel-item active ">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="./assets/team-1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">John Doe</h5>
+          <p class="card-text">" Excellent experience from start to finishThe service was fantastic! Highly recommended."</p>
+      
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="./assets/team-2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">katherine</h5>
+                <p class="card-text">" Excellent experience from start to finishThe service was fantastic! Highly recommended."</p>
+      
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">  
+            <div class="card">
+            <img class="card-img-top" src="./assets/team-3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">smith</h5>
+              <p class="card-text">" Excellent experience from start to finishThe service was fantastic! Highly recommended."</p>
+       
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Second carousel item -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="./assets/team-4.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">julia</h5>
+                <p class="card-text">" Excellent experience from start to finishThe service was fantastic! Highly recommended."</p>
+        
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="./assets/team-5.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Alice</h5>
+                <p class="card-text">" Excellent experience from start to finishThe service was fantastic! Highly recommended."</p>
+      
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card">
+              <img class="card-img-top" src="./assets/team-6.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">John Smith</h5>
+                <p class="card-text">" Excellent experience from start to finishThe service was fantastic! Highly recommended."</p>
+       
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
     </div>
     
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card">
-                  <img src="./assets/p4.jpeg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Tech Innovators Conference 2024</h5>
-                    <p class="card-text">Join leading minds in technology for a three-day conference featuring keynote speeches, panel discussions, and networking opportunities.</p>
-                    <div class="event-info">
-                        <div class="event-detail">
-                            <i class="fa-solid fa-location-pin"></i>
-                            <p>Karachi, Sindh, Pakistan</p>
-                        </div>
-                        <div class="event-detail">
-                            <i class="fa-solid fa-calendar-days"></i>
-                            <p>15th July 2024, at 9:30 PM</p>
-                        </div>
-                    </div>
-                    
-                    <a href="#" class="btn btn-primary mt-3">Explore more </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <img src="./assets/p3.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Summer Music Fest</h5>
-                    <p class="card-text">enjoy a weekend of live performances from top artists across genres at the annual Summer Music Fest food trucks, and fun activities for all ages.
-                    </p>
-                    <div class="event-info">
-                        <div class="event-detail">
-                            <i class="fa-solid fa-location-pin"></i>
-                            <p>Karachi, Sindh, Pakistan</p>
-                        </div>
-                        <div class="event-detail">
-                            <i class="fa-solid fa-calendar-days"></i>
-                            <p>15th July 2024, at 9:30 PM</p>
-                        </div>
-                    </div>
-                    
-                    <a href="#" class="btn btn-primary mt-3">Explore more </a>
-                   
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <img src="./assets/p4.jpeg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Art & Culture Expo</h5>
-                    <p class="card-text">Discover local talent and global masterpieces at the Art & Culture Expo. This event features art exhibitions, live demonstrations, and workshops</p>
-                    <div class="event-info">
-                        <div class="event-detail">
-                            <i class="fa-solid fa-location-pin"></i>
-                            <p>Karachi, Sindh, Pakistan</p>
-                        </div>
-                        <div class="event-detail">
-                            <i class="fa-solid fa-calendar-days"></i>
-                            <p>15th July 2024, at 9:30 PM</p>
-                        </div>
-                    </div>
-                    
-                    <a href="#" class="btn btn-primary mt-3">Explore more</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card" >
-                  <img src="./assets/p1.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Startup Pitch Night</h5>
-                   
-                    <p class="card-text">Aspiring entrepreneurs present their innovative ideas to a panel of investors and industry experts at Startup Pitch Night. do not miss out such events .</p>
-                    <div class="event-info">
-                        <div class="event-detail">
-                            <i class="fa-solid fa-location-pin"></i>
-                            <p>Karachi, Sindh, Pakistan</p>
-                        </div>
-                        <div class="event-detail">
-                            <i class="fa-solid fa-calendar-days"></i>
-                            <p>15th July 2024, at 9:30 PM</p>
-                        </div>
-                    </div>
-                    
-                    <a href="#" class="btn btn-primary mt-3">Explore more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <img src="./assets/p5.jpeg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Fitness & Wellness Fair</h5>
-                    <p class="card-text">Participate in fitness classes, wellness workshops, and health screenings at the Fitness & Wellness Fair. Learn about the latest trends in nutrition, mental health, and physical fitness.</p>
-                    <div class="event-info">
-                        <div class="event-detail">
-                            <i class="fa-solid fa-location-pin"></i>
-                            <p>Karachi, Sindh, Pakistan</p>
-                        </div>
-                        <div class="event-detail">
-                            <i class="fa-solid fa-calendar-days"></i>
-                            <p>15th July 2024, at 9:30 PM</p>
-                        </div>
-                    </div>
-                    
-                    <a href="#" class="btn btn-primary mt-3">Explore more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <img src="./assets/p6.jpeg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Gourmet Food Festival</h5>
-                    <p class="card-text">Savor exquisite dishes from renowned chefs at the Gourmet Food Festival. Enjoy cooking demonstrations, tasting sessions, and culinary competitions in a celebration of fine dining and gourmet cuisine.</p>
-                    <div class="event-info">
-                        <div class="event-detail">
-                            <i class="fa-solid fa-location-pin"></i>
-                            <p>Karachi, Sindh, Pakistan</p>
-                        </div>
-                        <div class="event-detail">
-                            <i class="fa-solid fa-calendar-days"></i>
-                            <p>15th July 2024, at 9:30 PM</p>
-                        </div>
-                    </div>
-                    
-                    <a href="#" class="btn btn-primary mt-3">Explore more</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-            
-
-
+    
+  </div>
+</div>
+<!-- Testimonial ends here  -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
   </body>
 </html>
